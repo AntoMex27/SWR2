@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #E54694, #BD2373);
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #BD2373;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#recommendation-form {
+    background: #FFFFFF;
+    color: #BD2373;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#recommendation-form h2 {
+    margin-top: 0;
+}
+
+#recommendation-form label, #recommendation-form input, #recommendation-form select, #recommendation-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#recommendation-form input, #recommendation-form select, #recommendation-form button {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #BD2373;
+    border-radius: 5px;
+}
+
+#recommendation-form button {
+    background-color: #BD2373;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+#weekly-recommendations h2 {
+    margin-top: 0;
+}
+
+.recommendation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.recommendation iframe {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recommendation iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    height: 30px;
+}
+
